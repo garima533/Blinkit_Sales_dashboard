@@ -1,7 +1,7 @@
 # Blinkit_Sales_dashboard
 This project implements a simple ETL (Extract, Transform, Load) pipeline to process Blinkit grocery sales data. The goal is to build a foundation for a sales dashboard by cleaning the raw data and structuring it within a database.
 
-**Tools Used
+# Tools Used
 Primarily, two powerful Python libraries are used for the ETL process:
 
 Pandas: For data manipulation and transformation.
@@ -10,7 +10,7 @@ SQLAlchemy: For database communication and loading the data into SQLite.
 
 Jupyter Notebook: For scripting and executing the ETL steps.
 
-** File Structure
+# File Structure
 Here's an overview of the key files in this project:
 
 BlinkIt Grocery Data.xlsx: The raw dataset containing grocery sales information.
@@ -21,7 +21,7 @@ final_script.ipynb: The main Jupyter Notebook for performing data analysis or ge
 
 blinkit_sales.db: The resulting SQLite database populated by the setup_db.ipynb script.
 
-** Getting Started
+# Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
 
 Prerequisites
@@ -40,7 +40,7 @@ Install the required Python packages:
 
 pip install pandas jupyter sqlalchemy
 
-** Usage
+# Usage
 To run the project, you need to execute the Jupyter Notebooks in the correct order.
 
 Run the ETL script:
@@ -52,3 +52,6 @@ Run the analysis/dashboard script:
 After the database is created, run final_script.ipynb to analyze the data.
 
 jupyter nbconvert --to notebook --execute final_script.ipynb
+
+# Live Demo
+(https://drive.google.com/file/d/1o8NZF_tQ0D4et7jIjdMFvlMsO0VLPeZS/view?usp=sharing)
